@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "RoxyAPI Spiritual AI Voice Assistant"
+abstract: "Open source AI voice assistant and embeddable voice widget for astrology, Vedic astrology, tarot, numerology, human design, and more. Speech runs in the browser; answers are grounded in RoxyAPI Remote MCP tools verified against NASA JPL Horizons."
+authors:
+  - name: "RoxyAPI"
+url: "https://github.com/RoxyAPI/spiritual-ai-voice-assistant"
+repository-code: "https://github.com/RoxyAPI/spiritual-ai-voice-assistant"
+license: MIT
+type: software
+keywords:
+  - mcp
+  - model-context-protocol
+  - voice-assistant
+  - astrology
+  - ai-agents
+  - nextjs
+  - vercel-ai-sdk
+  - web-speech-api

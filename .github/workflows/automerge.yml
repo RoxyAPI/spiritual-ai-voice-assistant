@@ -1,0 +1,29 @@
+name: Dependabot auto-merge
+
+# Auto-merges Dependabot PATCH updates once CI is green, so routine dependency
+# upkeep needs no human. Minor and major bumps still wait for a maintainer.
+# Requires repo settings: "Allow auto-merge" on, and a branch rule that makes the
+# CI "verify" check required so the merge waits for it.
+
+on: pull_request
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  automerge:
+    if: github.actor == 'dependabot[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch update metadata
+        id: meta
+        uses: dependabot/fetch-metadata@v2
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Enable auto-merge for patch updates
+        if: steps.meta.outputs.update-type == 'version-update:semver-patch'
+        run: gh pr merge --auto --squash "$PR_URL"
+        env:
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
