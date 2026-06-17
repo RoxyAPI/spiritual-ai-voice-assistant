@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://roxyapi.com">
+    <img src="https://raw.githubusercontent.com/RoxyAPI/spiritual-ai-voice-assistant/main/assets/hero.png" alt="AI Spiritual Voice Assistant: open source voice readings for astrology, tarot, numerology and more, built on RoxyAPI" width="100%">
+  </a>
+</p>
+
 # AI Spiritual Voice Assistant: Astrology, Tarot, Numerology and More
 
 > Open source AI voice assistant you talk to out loud. It answers with real Western astrology, Vedic astrology, numerology, tarot, human design, forecast timelines, biorhythm, I Ching, crystals, dreams, and angel numbers, grounded in [RoxyAPI](https://roxyapi.com) Remote MCP, not language model guesses. Ships an embeddable voice widget you can drop on any site in one line.
