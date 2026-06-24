@@ -116,7 +116,7 @@ You speak -> browser transcribes -> LLM picks a tool -> Remote MCP calls RoxyAPI
 
 1. You tap the orb and ask a question out loud
 2. The browser transcribes your speech (no audio leaves for a third party voice service)
-3. The LLM selects the right tool from 150+ auto-discovered Remote MCP tools
+3. The LLM selects the right tool from 160+ auto-discovered Remote MCP tools
 4. [RoxyAPI](https://roxyapi.com) computes the answer from verified engines, verified against NASA JPL Horizons
 5. The LLM interprets the structured data and the reply is spoken back in your language
 
