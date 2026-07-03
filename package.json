@@ -13,7 +13,7 @@
     "audit-deps": "npm audit"
   },
   "dependencies": {
-    "@ai-sdk/anthropic": "^3.0.86",
+    "@ai-sdk/anthropic": "^4.0.7",
     "@ai-sdk/google": "^3.0.80",
     "@ai-sdk/mcp": "^1.0.47",
     "@ai-sdk/openai": "^3.0.74",
