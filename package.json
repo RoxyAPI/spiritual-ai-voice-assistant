@@ -13,11 +13,11 @@
     "audit-deps": "npm audit"
   },
   "dependencies": {
-    "@ai-sdk/anthropic": "^3.0.86",
-    "@ai-sdk/google": "^3.0.80",
-    "@ai-sdk/mcp": "^1.0.47",
-    "@ai-sdk/openai": "^3.0.74",
-    "@ai-sdk/react": "^3.0.211",
+    "@ai-sdk/anthropic": "^3.0.97",
+    "@ai-sdk/google": "^3.0.93",
+    "@ai-sdk/mcp": "^1.0.62",
+    "@ai-sdk/openai": "^3.0.85",
+    "@ai-sdk/react": "^3.0.228",
     "@base-ui/react": "^1.6.0",
     "ai": "^6.0.201",
     "class-variance-authority": "^0.7.1",
