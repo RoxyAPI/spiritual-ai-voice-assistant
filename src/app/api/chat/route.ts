@@ -20,6 +20,7 @@ import {
   UIMessage,
   stepCountIs,
 } from "ai";
+import type { GoogleLanguageModelOptions } from "@ai-sdk/google";
 import { getModel } from "@/lib/ai";
 import { getMCPTools } from "@/lib/mcp";
 import { getSystemPrompt } from "@/lib/prompts";
@@ -114,6 +115,12 @@ export async function POST(req: Request) {
       messages: await convertToModelMessages(messages),
       tools,
       stopWhen: stepCountIs(MAX_TOOL_STEPS),
+      // gemini-2.5-flash with dynamic thinking intermittently emits an empty candidate (zero output tokens, finishReason STOP) when the tool payload is large, which surfaces as a silent non-answer. Pinning the thinking budget to 0 makes tool calling deterministic and cuts latency. Non-Google providers ignore the google namespace.
+      providerOptions: {
+        google: {
+          thinkingConfig: { thinkingBudget: 0 },
+        } satisfies GoogleLanguageModelOptions,
+      },
       onStepFinish: isDev
         ? ({ toolCalls, toolResults, text }) => {
             for (const call of toolCalls) {
