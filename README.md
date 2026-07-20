@@ -19,6 +19,10 @@ Browser native speech in, spoken reading out. Auto-discovered Remote MCP tools, 
 
 **Clone. Add keys. Deploy. A live spiritual voice assistant in 30 minutes.**
 
+![AI Spiritual Voice Assistant: tap to talk voice orb with suggested spiritual questions](https://raw.githubusercontent.com/RoxyAPI/spiritual-ai-voice-assistant/main/screenshots/screenshot-01.png)
+
+![AI Spiritual Voice Assistant: spoken tarot reading and crystal recommendation transcript grounded in real RoxyAPI data](https://raw.githubusercontent.com/RoxyAPI/spiritual-ai-voice-assistant/main/screenshots/screenshot-02.png)
+
 ## Why This Exists
 
 AI voice readings are only as trustworthy as the data behind them. This Template grounds every spoken answer in real, verified calculations. Speech to text and text to speech run for free in the browser, and every reading is computed by [RoxyAPI](https://roxyapi.com) tools through [Remote MCP](https://roxyapi.com/docs/mcp), then read aloud. You bring your own language model, so the voice and personality are yours, and the calculations are verified against NASA JPL Horizons before a single word is spoken.
@@ -79,7 +83,7 @@ Optional attributes on the script tag:
 git clone https://github.com/RoxyAPI/spiritual-ai-voice-assistant.git
 cd spiritual-ai-voice-assistant
 npm install
-cp env.example .env.local
+cp .env.example .env.local
 # Add your keys to .env.local
 npm run dev
 ```
