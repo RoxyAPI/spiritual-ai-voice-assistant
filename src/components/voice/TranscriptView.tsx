@@ -28,7 +28,8 @@ export function TranscriptView({ messages, interim }: TranscriptViewProps) {
   }, [messages, interim]);
 
   return (
-    <ScrollArea className="h-full px-4 py-4" role="log" aria-live="polite">
+    // text-left guards against alignment inherited from a host container (the home hero centers its copy)
+    <ScrollArea className="h-full px-4 py-4 text-left" role="log" aria-live="polite">
       <div className="space-y-4">
         {messages.map((message) => {
           const text = messageText(message);
