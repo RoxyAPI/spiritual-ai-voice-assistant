@@ -10,6 +10,8 @@ const DOMAINS = [
   "Tarot",
   "Human Design",
   "Forecast",
+  "Chinese Astrology",
+  "Feng Shui",
   "Biorhythm",
   "I Ching",
   "Crystals",
@@ -67,13 +69,13 @@ const jsonLd = {
       name: "AI Spiritual Voice Assistant",
       url: "https://github.com/RoxyAPI/spiritual-ai-voice-assistant",
       description:
-        "Open source AI voice assistant for astrology, Vedic astrology, tarot, numerology, human design, forecast, biorhythm, I Ching, crystals, dreams, and angel numbers. Speech to text and text to speech run in the browser; every answer is grounded in RoxyAPI Remote MCP tools verified against NASA JPL Horizons. Ships an embeddable bottom corner voice widget for any website.",
+        "Open source AI voice assistant for astrology, Vedic astrology, forecast, human design, Chinese astrology, feng shui, numerology, tarot, biorhythm, I Ching, crystals, dreams, and angel numbers. Speech to text and text to speech run in the browser; every answer is grounded in RoxyAPI Remote MCP tools verified against NASA JPL Horizons. Ships an embeddable bottom corner voice widget for any website.",
       applicationCategory: "LifestyleApplication",
       operatingSystem: "Web",
       offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
       creator: { "@type": "Organization", name: "RoxyAPI", url: "https://roxyapi.com" },
       featureList: [
-        "Hands free voice readings across 11 spiritual domains",
+        "Hands free voice readings across 13 spiritual domains",
         "Embeddable bottom corner voice widget for any website",
         "Answers grounded in verified calculations, not hallucinations",
         "Speaks and understands the user language",
@@ -134,7 +136,7 @@ export default function Home() {
         </section>
 
         <section className="space-y-6 text-center">
-          <h2 className="text-2xl font-bold text-zinc-100">One key. Eleven spiritual domains.</h2>
+          <h2 className="text-2xl font-bold text-zinc-100">One key. Thirteen spiritual domains.</h2>
           <p className="mx-auto max-w-2xl text-sm text-zinc-400">
             The assistant reaches every RoxyAPI domain through a single Remote MCP connection, plus
             location geocoding so a spoken birthplace becomes a chart ready coordinate automatically.

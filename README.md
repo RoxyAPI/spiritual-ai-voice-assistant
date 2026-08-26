@@ -27,7 +27,7 @@ Browser native speech in, spoken reading out. Auto-discovered Remote MCP tools, 
 
 AI voice readings are only as trustworthy as the data behind them. This Template grounds every spoken answer in real, verified calculations. Speech to text and text to speech run for free in the browser, and every reading is computed by [RoxyAPI](https://roxyapi.com) tools through [Remote MCP](https://roxyapi.com/docs/mcp), then read aloud. You bring your own language model, so the voice and personality are yours, and the calculations are verified against NASA JPL Horizons before a single word is spoken.
 
-**Eleven spiritual domains plus location geocoding. Auto-discovered tools. Multilingual. Any LLM. No extra voice account.**
+**Thirteen spiritual domains plus location geocoding. Auto-discovered tools. Multilingual. Any LLM. No extra voice account.**
 
 | Domain | What You Can Ask Out Loud |
 |--------|---------------------------|
@@ -136,7 +136,7 @@ Speech recognition and speech synthesis use the browser Web Speech API. That mea
 
 ## Remote MCP Tool Discovery
 
-This assistant uses [Model Context Protocol](https://modelcontextprotocol.io) to discover every available tool from [RoxyAPI](https://roxyapi.com) at runtime. No manual endpoint wiring: all tools across 11 spiritual domains plus location geocoding are ready out of the box. Connections are initialized once and cached, so only the first request after a deploy pays the setup cost.
+This assistant uses [Model Context Protocol](https://modelcontextprotocol.io) to discover every available tool from [RoxyAPI](https://roxyapi.com) at runtime. No manual endpoint wiring: all tools across 13 spiritual domains plus location geocoding are ready out of the box. Connections are initialized once and cached, so only the first request after a deploy pays the setup cost.
 
 Enable a subset with the `ROXYAPI_PRODUCTS` environment variable (fewer tools means faster, more accurate tool selection):
 
