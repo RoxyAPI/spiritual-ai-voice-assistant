@@ -136,7 +136,7 @@ Speech recognition and speech synthesis use the browser Web Speech API. That mea
 
 ## Remote MCP Tool Discovery
 
-This assistant uses [Model Context Protocol](https://modelcontextprotocol.io) to discover every available tool from [RoxyAPI](https://roxyapi.com) at runtime. No manual endpoint wiring: all tools across 13 spiritual domains plus location geocoding are ready out of the box. Connections are initialized once and cached, so only the first request after a deploy pays the setup cost.
+This assistant uses [Model Context Protocol](https://modelcontextprotocol.io) to discover every available tool from [RoxyAPI](https://roxyapi.com) at runtime. No manual endpoint wiring: all tools across 17 spiritual domains plus location geocoding are ready out of the box. Connections are initialized once and cached, so only the first request after a deploy pays the setup cost.
 
 Enable a subset with the `ROXYAPI_PRODUCTS` environment variable (fewer tools means faster, more accurate tool selection):
 
