@@ -27,21 +27,28 @@ Browser native speech in, spoken reading out. Auto-discovered Remote MCP tools, 
 
 AI voice readings are only as trustworthy as the data behind them. This Template grounds every spoken answer in real, verified calculations. Speech to text and text to speech run for free in the browser, and every reading is computed by [RoxyAPI](https://roxyapi.com) tools through [Remote MCP](https://roxyapi.com/docs/mcp), then read aloud. You bring your own language model, so the voice and personality are yours, and the calculations are verified against NASA JPL Horizons before a single word is spoken.
 
-**Thirteen spiritual domains plus location geocoding. Auto-discovered tools. Multilingual. Any LLM. No extra voice account.**
+**Seventeen spiritual domains plus location geocoding. Auto-discovered tools. Multilingual. Any LLM. No extra voice account.**
 
 | Domain | What You Can Ask Out Loud |
 |--------|---------------------------|
 | **Western Astrology** | Natal chart, daily, weekly, and monthly horoscopes, transits, synastry, compatibility, moon phases |
 | **Vedic Astrology** | Janam Kundli, Vimshottari Dasha, Gun Milan, Panchang, Manglik, Kalsarpa and Sadhesati doshas, KP, Navamsa |
-| **Numerology** | Life Path, Expression, Soul Urge, Personal Year, compatibility |
-| **Tarot** | Three card spreads, daily card, yes or no oracle |
-| **Human Design** | Energy type, strategy, authority, profile, centers, channels, gates |
 | **Forecast** | Cross domain timeline of significance scored key dates |
+| **Human Design** | Energy type, strategy, authority, profile, centers, channels, gates |
+| **Chinese Astrology** | BaZi Four Pillars, Day Master strength, luck pillars, your zodiac animal and its compatibility, the Tong Shu almanac day |
+| **Feng Shui** | Your Kua number and lucky directions, flying star charts, bagua sectors, the year afflictions |
+| **Mesoamerican Astrology** | Your Tzolkin day sign, the full Mayan chart, Long Count dates, nawal compatibility, the Aztec day sign |
+| **Vastu** | Entrance direction, the Vastu Purusha Mandala, plot analysis, room placement, house warming dates |
+| **Numerology** | Life Path, Expression, Soul Urge, Personal Year, compatibility |
+| **Kabbalah** | Gematria for a name, name and birth profiles, the 72 names, the Tree of Life, the Hebrew letters |
+| **Tarot** | Three card spreads, daily card, yes or no oracle |
 | **Biorhythm** | Physical, emotional, and intellectual cycles with critical day alerts |
+| **Ayurveda** | Your constitution from the birth chart, the daily dosha clock, the seasonal regimen, the doshas, tastes, and qualities |
 | **I Ching** | Hexagram readings, daily cast, changing lines |
 | **Crystals** | Stones by zodiac and chakra, birthstones, healing properties |
 | **Dreams** | Symbol interpretation across thousands of symbols |
 | **Angel Numbers** | Meaning of 111, 222, 444, 1111, and any recurring number |
+| **Location** | City search that turns "born in Mumbai" into coordinates and a timezone, so nobody has to say latitude out loud |
 
 It detects the language you speak and replies in the same one.
 
