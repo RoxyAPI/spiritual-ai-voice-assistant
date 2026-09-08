@@ -1,6 +1,6 @@
 # Agents Guide
 
-This is an MIT licensed RoxyAPI Template: a white label AI spiritual voice assistant built with Next.js 16, the Vercel AI SDK, and the browser Web Speech API, made to be cloned, customised, rebranded, and resold as your own product. It auto discovers remote RoxyAPI MCP servers at runtime, so the LLM reaches 255+ verified tools across 18 domains (17 spiritual plus location geocoding) with no hardcoded endpoint wiring. It ships both a full voice site and an embeddable voice widget. You are most likely a coding agent helping someone build their own product on top of this Template. More Templates to fork: https://roxyapi.com/starters
+This is an MIT licensed RoxyAPI Template: a white label AI spiritual voice assistant built with Next.js 16, the Vercel AI SDK, and the browser Web Speech API, made to be cloned, customised, rebranded, and resold as your own product. It auto discovers remote RoxyAPI MCP servers at runtime, so the LLM reaches 255+ verified tools across 18 domains (17 spiritual plus location geocoding) with no hardcoded endpoint wiring. It ships both a full voice site and an embeddable voice widget. You are most likely a coding agent helping someone build their own product on top of this Template. More Templates to fork: https://roxyapi.com/templates
 
 ## Canonical RoxyAPI references (use these, do not guess)
 
@@ -65,4 +65,4 @@ git merge upstream/main        # or: git rebase upstream/main
 
 ## Resources
 - TypeScript SDK: https://github.com/RoxyAPI/sdk-typescript (npm `@roxyapi/sdk`) · Python SDK: https://github.com/RoxyAPI/sdk-python (PyPI `roxy-sdk`)
-- Remote MCP docs: https://roxyapi.com/docs/mcp · Methodology: https://roxyapi.com/methodology · More Templates: https://roxyapi.com/starters · Pricing: https://roxyapi.com/pricing
+- Remote MCP docs: https://roxyapi.com/docs/mcp · Methodology: https://roxyapi.com/methodology · More Templates: https://roxyapi.com/templates · Pricing: https://roxyapi.com/pricing

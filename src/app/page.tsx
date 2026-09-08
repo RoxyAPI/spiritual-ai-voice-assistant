@@ -187,7 +187,7 @@ export default function Home() {
             <a href="https://roxyapi.com/docs/mcp" target="_blank" rel="noopener" title="RoxyAPI Remote MCP documentation for AI agents" className="text-roxy hover:underline">Remote MCP docs</a>
             <a href="https://roxyapi.com/methodology" target="_blank" rel="noopener" title="How RoxyAPI verifies accuracy against NASA JPL Horizons" className="text-roxy hover:underline">Methodology</a>
             <a href="https://roxyapi.com/api-reference" target="_blank" rel="noopener" title="Try the RoxyAPI endpoints live in the browser" className="text-roxy hover:underline">Live API reference</a>
-            <a href="https://roxyapi.com/starters" target="_blank" rel="noopener" title="More free RoxyAPI templates to clone and ship" className="text-roxy hover:underline">More Templates</a>
+            <a href="https://roxyapi.com/templates" target="_blank" rel="noopener" title="More free RoxyAPI templates to clone and ship" className="text-roxy hover:underline">More Templates</a>
           </div>
         </section>
 

@@ -12,7 +12,7 @@
 [![Try the API live](https://img.shields.io/badge/Try_API_Live-Free_in_browser-22c55e?style=for-the-badge&logo=swagger&logoColor=white)](https://roxyapi.com/api-reference)
 [![Remote MCP](https://img.shields.io/badge/Remote_MCP-Setup-a855f7?style=for-the-badge&logo=anthropic&logoColor=white)](https://roxyapi.com/docs/mcp)
 [![Methodology](https://img.shields.io/badge/Methodology-NASA_JPL_verified-f59e0b?style=for-the-badge&logo=nasa&logoColor=white)](https://roxyapi.com/methodology)
-[![More Templates](https://img.shields.io/badge/More_Templates-RoxyAPI-ec4899?style=for-the-badge&logo=github&logoColor=white)](https://roxyapi.com/starters)
+[![More Templates](https://img.shields.io/badge/More_Templates-RoxyAPI-ec4899?style=for-the-badge&logo=github&logoColor=white)](https://roxyapi.com/templates)
 [![Deploy with Vercel](https://img.shields.io/badge/Deploy-Vercel-000000?style=for-the-badge&logo=vercel)](https://vercel.com/new/clone?repository-url=https://github.com/RoxyAPI/spiritual-ai-voice-assistant&env=ROXYAPI_KEY,GOOGLE_GENERATIVE_AI_API_KEY&envDescription=API%20keys%20for%20RoxyAPI%20and%20your%20LLM%20provider&envLink=https://roxyapi.com/pricing)
 
 Browser native speech in, spoken reading out. Auto-discovered Remote MCP tools, multi-provider LLM support (Gemini, Claude, GPT), and a one-line embeddable widget.
@@ -269,7 +269,7 @@ The code is MIT licensed and free. You bring a [RoxyAPI key](https://roxyapi.com
 | Live API Reference | [roxyapi.com/api-reference](https://roxyapi.com/api-reference) |
 | Methodology (NASA JPL verified) | [roxyapi.com/methodology](https://roxyapi.com/methodology) |
 | Pricing | [roxyapi.com/pricing](https://roxyapi.com/pricing) |
-| More Templates | [roxyapi.com/starters](https://roxyapi.com/starters) |
+| More Templates | [roxyapi.com/templates](https://roxyapi.com/templates) |
 
 ## License
 
