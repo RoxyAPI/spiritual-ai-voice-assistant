@@ -13,7 +13,7 @@
 [![Remote MCP](https://img.shields.io/badge/Remote_MCP-Setup-a855f7?style=for-the-badge&logo=anthropic&logoColor=white)](https://roxyapi.com/docs/mcp)
 [![Methodology](https://img.shields.io/badge/Methodology-NASA_JPL_verified-f59e0b?style=for-the-badge&logo=nasa&logoColor=white)](https://roxyapi.com/methodology)
 [![More Templates](https://img.shields.io/badge/More_Templates-RoxyAPI-ec4899?style=for-the-badge&logo=github&logoColor=white)](https://roxyapi.com/templates)
-[![Deploy with Vercel](https://img.shields.io/badge/Deploy-Vercel-000000?style=for-the-badge&logo=vercel)](https://vercel.com/new/clone?repository-url=https://github.com/RoxyAPI/spiritual-ai-voice-assistant&env=ROXYAPI_KEY,GOOGLE_GENERATIVE_AI_API_KEY&envDescription=API%20keys%20for%20RoxyAPI%20and%20your%20LLM%20provider&envLink=https://roxyapi.com/pricing)
+[![Deploy with Vercel](https://img.shields.io/badge/Deploy-Vercel-000000?style=for-the-badge&logo=vercel)](https://vercel.com/new/clone?repository-url=https://github.com/RoxyAPI/spiritual-ai-voice-assistant&env=ROXY_API_KEY,GOOGLE_GENERATIVE_AI_API_KEY&envDescription=API%20keys%20for%20RoxyAPI%20and%20your%20LLM%20provider&envLink=https://roxyapi.com/pricing)
 
 Browser native speech in, spoken reading out. Auto-discovered Remote MCP tools, multi-provider LLM support (Gemini, Claude, GPT), and a one-line embeddable widget.
 
@@ -198,7 +198,7 @@ This Template is built to run with little upkeep:
 
 | Variable | Required | Default | Description |
 |----------|----------|---------|-------------|
-| `ROXYAPI_KEY` | Yes | none | Your RoxyAPI key ([get one](https://roxyapi.com/pricing)) |
+| `ROXY_API_KEY` | Yes | none | Your RoxyAPI key ([get one](https://roxyapi.com/pricing)) |
 | `LLM_PROVIDER` | No | `gemini` | `gemini`, `anthropic`, or `openai` |
 | `GOOGLE_GENERATIVE_AI_API_KEY` | If Gemini | none | Google AI key |
 | `ANTHROPIC_API_KEY` | If Anthropic | none | Anthropic key |
@@ -212,7 +212,7 @@ This Template is built to run with little upkeep:
 
 One-click deploy to Vercel:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/RoxyAPI/spiritual-ai-voice-assistant&env=ROXYAPI_KEY,GOOGLE_GENERATIVE_AI_API_KEY&envDescription=API%20keys%20for%20RoxyAPI%20and%20your%20LLM%20provider&envLink=https://roxyapi.com/pricing)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/RoxyAPI/spiritual-ai-voice-assistant&env=ROXY_API_KEY,GOOGLE_GENERATIVE_AI_API_KEY&envDescription=API%20keys%20for%20RoxyAPI%20and%20your%20LLM%20provider&envLink=https://roxyapi.com/pricing)
 
 Or deploy anywhere that runs Node.js:
 

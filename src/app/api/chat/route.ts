@@ -2,7 +2,7 @@
  * @fileoverview Chat API route — streams AI responses with RoxyAPI MCP tools.
  *
  * Shared by the inline assistant and the embeddable widget: both transcribe
- * speech in the browser and POST the text here. The LLM key and ROXYAPI_KEY stay
+ * speech in the browser and POST the text here. The LLM key and ROXY_API_KEY stay
  * server-side; nothing secret ever reaches the page or the iframe. MCP tools are
  * loaded once and cached across requests (see lib/mcp.ts).
  *
